@@ -29,12 +29,34 @@
   height: 100px;
   padding: 0 20px;
   background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
+.user a {
+color: #FAFAFA;
+font-size: 16px;
+text-decoration: none;
+} 
+.user_chat a {
+  color: deepskyblue;
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
 .rooms{
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
   height: calc(100vh - 100px)
+}
+.chat_example {
+  padding: 20px 0 40px ;
+}
+.chat_example a{
+  text-decoration: none;
+  color: white;
 }
 
 .chat_main{
