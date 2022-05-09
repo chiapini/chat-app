@@ -115,7 +115,7 @@ text-decoration: none;
   padding: 20px 40px;
   display: flex;
 }
-.send{
+.form-submit{
   color: white;
   font-size: 16px;
   background-color: #38AEF0;
@@ -125,7 +125,7 @@ text-decoration: none;
   border-style: none;
 }
 
-.text_message{
+.form-message{
   padding-left: 10px;
   border-style: none;
   height: 50px;
